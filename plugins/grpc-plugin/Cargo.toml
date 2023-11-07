@@ -22,6 +22,7 @@ path = "../../plugins"
 
 [dependencies.cln-rpc]
 path = "../../cln-rpc"
+package = "fedimint-cln-rpc"
 
 [dependencies.tokio]
 features = ["net", "rt-multi-thread"]

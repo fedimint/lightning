@@ -15,7 +15,7 @@ server = ["cln-rpc"]
 [dependencies]
 anyhow = "1.0"
 log = "0.4"
-cln-rpc = { path="../cln-rpc/", version = "^0.1", optional = true }
+cln-rpc = { package = "fedimint-cln-rpc", path="../cln-rpc/", version = "^0.4", optional = true }
 tonic = { version = "0.8", features = ["tls", "transport"] }
 prost = "0.11"
 hex = "0.4.3"
