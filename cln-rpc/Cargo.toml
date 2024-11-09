@@ -1,9 +1,9 @@
 [package]
-name = "cln-rpc"
+name = "fedimint-cln-rpc"
 version = "0.2.0"
 edition = "2021"
 license = "MIT"
-description = "An async RPC client for Core Lightning."
+description = "Fork of cln-rpc with updated bitcoin dependency"
 homepage = "https://github.com/ElementsProject/lightning/tree/master/cln-rpc"
 repository = "https://github.com/ElementsProject/lightning"
 documentation = "https://docs.rs/cln-rpc"
